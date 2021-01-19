@@ -1,0 +1,58 @@
+/* Generic Styles */
+body {
+    font-family: monospace;
+    font-size: 12pt;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.text-center {
+    text-align: center;
+}
+a {
+    color: #ffffff;
+}
+/* Fixed layout for the application */
+#app {
+    max-width: 430px;
+    background: #000000;
+    border: 2px solid #000000;
+}
+/* Header styling */
+header h1 {
+    background: #FF0000;
+    color: #ffffff;
+    font-style: italic;
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+}
+header h1 a {
+    text-decoration: none;
+}
+/* Main game area styling */
+article {
+    height: 410px;
+    overflow: auto;
+    color: #ffffff;
+    padding: 0.5rem;
+    position: relative;
+}
+article h2 {
+    margin: 0;
+}
+/* Footer styling */
+footer {
+    background: #FFFF00;
+    color: #ffffff;
+    font-size: 0.6rem;
+    padding: 1rem;
+}
+footer:after {
+    content: ' ';
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,17 @@
+{{#if playing}}
+{{!-- //this will appear on the screen, if a player wins --}}
+  {{#if winner}}
+    <div>
+      Player {{winner}} won!
+    </div>
+  {{/if}}
+  {{!-- //this will appear on the screen, if it is a draw --}}
+  {{#if draw}}
+    we'll call it a draw.
+  {{/if}}
+    <button {{action 'start'}}>Restart</button>
+{{else}}
+    <button {{action 'start'}}>Start</button>
+{{/if}}
+{{!-- //the size of the canvas --}}
+<canvas id="stage" width="380" height="380"></canvas>

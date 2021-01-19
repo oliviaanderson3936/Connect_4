@@ -1,0 +1,4 @@
+#Mon Jan 07 02:24:45 GMT 2019
+base.0=/home/kelvin/Projects2/CIS3158/Coursework/Su_K_23296933_CW2/cdv-app/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
